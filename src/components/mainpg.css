@@ -1,0 +1,79 @@
+/* body
+{
+    background:url("../components/image/spt.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+h1
+{
+    text-align: center;
+    text-decoration: double;
+    font-size: large;
+    color: black;
+    font-size:168%;
+    margin-top:10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2{
+    font-size:20px;
+    font-family:cursive;
+    color:black;
+}
+h3{
+    font-size: 15px;
+    color: rgb(11, 11, 11);
+}
+.course-col
+{
+    flex-basis:31%;
+    border-radius:10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing:border-box;
+    background:#fff3f3;
+    transition:0.5s;
+}
+.row{
+        margin-top:5%;
+        display:flex;
+        justify-content:space-between;
+    }
+.equipments{
+            width:80%;
+           margin:auto;
+           padding-top:100px;
+           text-align:center;
+           }
+.new{
+    color: black;
+}
+.star{
+    color:rgb(12, 11, 11);
+    font-size: 20px;
+}
+.course-col:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+    }
+    p{
+        color:#090909;
+        font-size:14px;
+        font-weight:300;
+        line-height:22px;
+        padding:10px;
+        }
+.butt{
+    background-color: rgb(255, 255, 255);
+ 
+  border: 2px solid rgb(93, 79, 15);
+  font-weight: bold;
+  color: black;
+  width:15%;
+  height:15%;
+  padding: 10px 10px;
+  margin-right: 50px;
+  margin-top: 100px;
+  display:block;
+  align-items: center;
+  float:left;
+}
